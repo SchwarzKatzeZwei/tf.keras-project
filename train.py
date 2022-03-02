@@ -1,14 +1,16 @@
-from dataset import DataSet
-from datetime import datetime as dt
-from keras_call_back import KerasCallBack
-from model import MLP, VGG16, MobileNetV2, ResNet50V2, ResNet101V2
-from tensorflow.keras.preprocessing.image import ImageDataGenerator
-from tensorflow.keras.optimizers import SGD, Adam
 import copy
 import os
+from datetime import datetime as dt
 
-from tensorflow.python.compiler.mlcompute import mlcompute
-mlcompute.set_mlc_device(device_name='any')
+from tensorflow.keras.optimizers import SGD, Adam
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+from dataset import DataSet
+from keras_call_back import KerasCallBack
+from model import MLP, VGG16, MobileNetV2, ResNet50V2, ResNet101V2
+
+# from tensorflow.python.compiler.mlcompute import mlcompute
+# mlcompute.set_mlc_device(device_name='any')
 
 
 def main():

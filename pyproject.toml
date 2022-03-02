@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "tf.keras-project"
+version = "1.0.0"
+description = ""
+authors = ["Shogo Okajima <okajima-shohgo@comjo.co.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.9,<3.11"
+
+[tool.poetry.dev-dependencies]
+tensorflow-gpu = "^2.8.0"
+black = "^22.1.0"
+isort = "^5.10.1"
+pyproject-flake8 = "^0.0.1-alpha.2"
+scipy = "^1.8.0"
+
+[tool.black]
+line-length = 139
+
+[tool.isort]
+profile = "black"
+line_length = 139
+
+[tool.flake8]
+max-line-length = 139
+extend-ignore = "E203,E402"
+max-complexity = 10
+exclude = "tests/*"
