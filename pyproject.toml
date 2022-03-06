@@ -6,13 +6,14 @@ authors = ["Shogo Okajima <okajima-shohgo@comjo.co.jp>"]
 
 [tool.poetry.dependencies]
 python = "^3.9,<3.11"
-
-[tool.poetry.dev-dependencies]
+opencv-python = "^4.5.5"
 tensorflow-gpu = "^2.8.0"
 black = "^22.1.0"
 isort = "^5.10.1"
 pyproject-flake8 = "^0.0.1-alpha.2"
 scipy = "^1.8.0"
+Pillow = "^9.0.1"
+
 
 [tool.black]
 line-length = 139

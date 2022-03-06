@@ -129,5 +129,7 @@ dmypy.json
 .pyre/
 
 # Add optional
-dataset
+dataset*
 .vscode
+logs
+tmp

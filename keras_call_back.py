@@ -1,22 +1,16 @@
 import os
 from datetime import datetime as dt
 
-from tensorflow.keras.callbacks import (EarlyStopping, LambdaCallback,
-                                        LearningRateScheduler, ModelCheckpoint,
-                                        TensorBoard)
+from tensorflow.keras.callbacks import EarlyStopping, LambdaCallback, LearningRateScheduler, ModelCheckpoint, TensorBoard
 
 
 class KerasCallBack:
     """Kerasコールバックラッパークラス"""
+
     @staticmethod
     def EarlyStoppingCallback(
-            monitor='val_loss',
-            min_delta=0,
-            patience=0,
-            verbose=0,
-            mode='auto',
-            baseline=None,
-            restore_best_weights=False):
+        monitor="val_loss", min_delta=0, patience=0, verbose=0, mode="auto", baseline=None, restore_best_weights=False
+    ):
         """EarlyStopping Callback
             監視対象の数量が改善しなくなったら、トレーニングを停止します。
 
@@ -29,20 +23,28 @@ class KerasCallBack:
             baseline ([type], optional): モニターされた数量のベースライン値. Defaults to None.
             restore_best_weights (bool, optional): モニターされた数量の最良の値を使用して、エポックからモデルの重みを復元するかどうか. Defaults to False.
         """
-        return EarlyStopping(monitor=monitor, min_delta=min_delta, patience=patience, verbose=verbose,
-                             mode=mode, baseline=baseline, restore_best_weights=restore_best_weights)
+        return EarlyStopping(
+            monitor=monitor,
+            min_delta=min_delta,
+            patience=patience,
+            verbose=verbose,
+            mode=mode,
+            baseline=baseline,
+            restore_best_weights=restore_best_weights,
+        )
 
     @staticmethod
     def TensorBoardCallBack(
-            log_dir='logs',
-            histogram_freq=0,
-            write_graph=True,
-            write_images=False,
-            update_freq='epoch',
-            profile_batch=2,
-            embeddings_freq=0,
-            embeddings_metadata=None,
-            **kwargs):
+        log_dir="logs",
+        histogram_freq=0,
+        write_graph=True,
+        write_images=False,
+        update_freq="epoch",
+        profile_batch=2,
+        embeddings_freq=0,
+        embeddings_metadata=None,
+        **kwargs
+    ):
         """TensorBoard Callback
             TensorBoardの視覚化を有効にします
 
@@ -57,7 +59,7 @@ class KerasCallBack:
             embeddings_metadata ([type], optional): レイヤー名をこの埋め込みレイヤーのメタデータが保存されているファイル名にマップする辞書. Defaults to None.
         """
         tdatetime = dt.now()
-        tstr = tdatetime.strftime('%Y%m%d-%H%M%S')
+        tstr = tdatetime.strftime("%Y%m%d-%H%M%S")
         return TensorBoard(
             log_dir=log_dir + os.sep + tstr,
             histogram_freq=histogram_freq,
@@ -67,17 +69,13 @@ class KerasCallBack:
             profile_batch=profile_batch,
             embeddings_freq=embeddings_freq,
             embeddings_metadata=embeddings_metadata,
-            **kwargs)
+            **kwargs
+        )
 
     @staticmethod
     def LambdaCallBack(
-            on_epoch_begin=None,
-            on_epoch_end=None,
-            on_batch_begin=None,
-            on_batch_end=None,
-            on_train_begin=None,
-            on_train_end=None,
-            **kwargs):
+        on_epoch_begin=None, on_epoch_end=None, on_batch_begin=None, on_batch_end=None, on_train_begin=None, on_train_end=None, **kwargs
+    ):
         """Lambda Callback
             オンザフライでシンプルなカスタムコールバックを作成するためのコールバック
         Args:
@@ -94,18 +92,13 @@ class KerasCallBack:
             on_batch_begin=on_batch_begin,
             on_batch_end=on_batch_end,
             on_train_begin=on_train_begin,
-            on_train_end=on_train_end)
+            on_train_end=on_train_end,
+        )
 
     @staticmethod
     def ModelCheckpointCallBack(
-            filepath,
-            monitor='val_loss',
-            verbose=0,
-            save_best_only=False,
-            save_weights_only=False,
-            mode='auto',
-            save_freq='epoch',
-            **kwargs):
+        filepath, monitor="val_loss", verbose=0, save_best_only=False, save_weights_only=False, mode="auto", save_freq="epoch", **kwargs
+    ):
         """ModelCheckpoint Callback
             エポックごとにモデルを保存します
 
@@ -126,7 +119,8 @@ class KerasCallBack:
             save_weights_only=save_weights_only,
             mode=mode,
             save_freq=save_freq,
-            **kwargs)
+            **kwargs
+        )
 
     def LearningRateSchedulerCallBack(self, schedule, verbose=0):
         """LearningRateScheduler CallBack
