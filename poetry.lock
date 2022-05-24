@@ -2,7 +2,7 @@
 name = "absl-py"
 version = "1.0.0"
 description = "Abseil Python Common Libraries, see https://github.com/abseil/abseil-py."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -13,7 +13,7 @@ six = "*"
 name = "astunparse"
 version = "1.6.3"
 description = "An AST unparser for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -24,7 +24,7 @@ six = ">=1.6.1,<2.0"
 name = "black"
 version = "22.1.0"
 description = "The uncompromising code formatter."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.2"
 
@@ -46,7 +46,7 @@ uvloop = ["uvloop (>=0.15.2)"]
 name = "cachetools"
 version = "5.0.0"
 description = "Extensible memoizing collections and decorators"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "~=3.7"
 
@@ -54,7 +54,7 @@ python-versions = "~=3.7"
 name = "certifi"
 version = "2021.10.8"
 description = "Python package for providing Mozilla's CA Bundle."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -62,7 +62,7 @@ python-versions = "*"
 name = "charset-normalizer"
 version = "2.0.12"
 description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5.0"
 
@@ -73,7 +73,7 @@ unicode_backport = ["unicodedata2"]
 name = "click"
 version = "8.0.4"
 description = "Composable command line interface toolkit"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -84,7 +84,7 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 name = "colorama"
 version = "0.4.4"
 description = "Cross-platform colored terminal text."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -92,7 +92,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "flake8"
 version = "4.0.1"
 description = "the modular source code checker: pep8 pyflakes and co"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -105,7 +105,7 @@ pyflakes = ">=2.4.0,<2.5.0"
 name = "flatbuffers"
 version = "2.0"
 description = "The FlatBuffers serialization format for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -113,7 +113,7 @@ python-versions = "*"
 name = "gast"
 version = "0.5.3"
 description = "Python AST that abstracts the underlying Python version"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -121,7 +121,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 name = "google-auth"
 version = "2.6.0"
 description = "Google Authentication Library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*"
 
@@ -140,7 +140,7 @@ reauth = ["pyu2f (>=0.1.5)"]
 name = "google-auth-oauthlib"
 version = "0.4.6"
 description = "Google Authentication Library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -155,7 +155,7 @@ tool = ["click (>=6.0.0)"]
 name = "google-pasta"
 version = "0.2.0"
 description = "pasta is an AST-based Python refactoring library"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -166,7 +166,7 @@ six = "*"
 name = "grpcio"
 version = "1.44.0"
 description = "HTTP/2-based RPC framework"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -180,7 +180,7 @@ protobuf = ["grpcio-tools (>=1.44.0)"]
 name = "h5py"
 version = "3.6.0"
 description = "Read and write HDF5 files from Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -191,7 +191,7 @@ numpy = ">=1.14.5"
 name = "idna"
 version = "3.3"
 description = "Internationalized Domain Names in Applications (IDNA)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -199,7 +199,7 @@ python-versions = ">=3.5"
 name = "importlib-metadata"
 version = "4.11.2"
 description = "Read metadata from Python packages"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -215,7 +215,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 name = "isort"
 version = "5.10.1"
 description = "A Python utility / library to sort Python imports."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6.1,<4.0"
 
@@ -229,7 +229,7 @@ plugins = ["setuptools"]
 name = "keras"
 version = "2.8.0"
 description = "Deep learning for humans."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -237,7 +237,7 @@ python-versions = "*"
 name = "keras-preprocessing"
 version = "1.1.2"
 description = "Easy data preprocessing and data augmentation for deep learning models"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -254,7 +254,7 @@ tests = ["pandas", "pillow", "tensorflow", "keras", "pytest", "pytest-xdist", "p
 name = "libclang"
 version = "13.0.0"
 description = "Clang Python Bindings, mirrored from the official LLVM repo: https://github.com/llvm/llvm-project/tree/main/clang/bindings/python, to make the installation process easier."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -262,7 +262,7 @@ python-versions = "*"
 name = "markdown"
 version = "3.3.6"
 description = "Python implementation of Markdown."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -276,7 +276,7 @@ testing = ["coverage", "pyyaml"]
 name = "mccabe"
 version = "0.6.1"
 description = "McCabe checker, plugin for flake8"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -284,7 +284,7 @@ python-versions = "*"
 name = "mypy-extensions"
 version = "0.4.3"
 description = "Experimental type system extensions for programs checked with the mypy typechecker."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -300,7 +300,7 @@ python-versions = ">=3.8"
 name = "oauthlib"
 version = "3.2.0"
 description = "A generic, spec-compliant, thorough implementation of the OAuth request-signing logic"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -329,7 +329,7 @@ numpy = [
 name = "opt-einsum"
 version = "3.3.0"
 description = "Optimizing numpys einsum function"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -344,7 +344,7 @@ tests = ["pytest", "pytest-cov", "pytest-pep8"]
 name = "pathspec"
 version = "0.9.0"
 description = "Utility library for gitignore style pattern matching of file paths."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
@@ -352,7 +352,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 name = "pillow"
 version = "9.0.1"
 description = "Python Imaging Library (Fork)"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -360,7 +360,7 @@ python-versions = ">=3.7"
 name = "platformdirs"
 version = "2.5.1"
 description = "A small Python module for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -372,7 +372,7 @@ test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock 
 name = "protobuf"
 version = "3.19.4"
 description = "Protocol Buffers"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.5"
 
@@ -380,7 +380,7 @@ python-versions = ">=3.5"
 name = "pyasn1"
 version = "0.4.8"
 description = "ASN.1 types and codecs"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -388,7 +388,7 @@ python-versions = "*"
 name = "pyasn1-modules"
 version = "0.2.8"
 description = "A collection of ASN.1-based protocols modules."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -399,7 +399,7 @@ pyasn1 = ">=0.4.6,<0.5.0"
 name = "pycodestyle"
 version = "2.8.0"
 description = "Python style guide checker"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
@@ -407,7 +407,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 name = "pyflakes"
 version = "2.4.0"
 description = "passive checker of Python programs"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -415,7 +415,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 name = "pyproject-flake8"
 version = "0.0.1a2"
 description = "pyproject-flake8 (`pflake8`), a monkey patching wrapper to connect flake8 with pyproject.toml configuration"
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -424,21 +424,10 @@ flake8 = "*"
 toml = "*"
 
 [[package]]
-name = "python-dotenv"
-version = "0.19.2"
-description = "Read key-value pairs from a .env file and set them as environment variables"
-category = "main"
-optional = false
-python-versions = ">=3.5"
-
-[package.extras]
-cli = ["click (>=5.0)"]
-
-[[package]]
 name = "requests"
 version = "2.27.1"
 description = "Python HTTP for Humans."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
 
@@ -456,7 +445,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<5)"]
 name = "requests-oauthlib"
 version = "1.3.1"
 description = "OAuthlib authentication support for Requests."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
 
@@ -471,7 +460,7 @@ rsa = ["oauthlib[signedtoken] (>=3.0.0)"]
 name = "rsa"
 version = "4.8"
 description = "Pure-Python RSA implementation"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6,<4"
 
@@ -482,7 +471,7 @@ pyasn1 = ">=0.1.3"
 name = "scipy"
 version = "1.8.0"
 description = "SciPy: Scientific Library for Python"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.8,<3.11"
 
@@ -493,7 +482,7 @@ numpy = ">=1.17.3,<1.25.0"
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -501,7 +490,7 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "tensorboard"
 version = "2.8.0"
 description = "TensorBoard lets you watch Tensors Flow"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -522,7 +511,7 @@ werkzeug = ">=0.11.15"
 name = "tensorboard-data-server"
 version = "0.6.1"
 description = "Fast data loading for TensorBoard"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -530,15 +519,23 @@ python-versions = ">=3.6"
 name = "tensorboard-plugin-wit"
 version = "1.8.1"
 description = "What-If Tool TensorBoard plugin."
-category = "dev"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "tensorflow-estimator"
+version = "2.8.0"
+description = "TensorFlow Estimator."
+category = "main"
 optional = false
 python-versions = "*"
 
 [[package]]
 name = "tensorflow-gpu"
-version = "2.8.0"
+version = "2.8.1"
 description = "TensorFlow is an open source machine learning framework for everyone."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -558,9 +555,9 @@ opt-einsum = ">=2.3.2"
 protobuf = ">=3.9.2"
 six = ">=1.12.0"
 tensorboard = ">=2.8,<2.9"
+tensorflow-estimator = ">=2.8,<2.9"
 tensorflow-io-gcs-filesystem = ">=0.23.1"
 termcolor = ">=1.1.0"
-tf-estimator-nightly = "2.8.0.dev2021122109"
 typing-extensions = ">=3.6.6"
 wrapt = ">=1.11.0"
 
@@ -568,7 +565,7 @@ wrapt = ">=1.11.0"
 name = "tensorflow-io-gcs-filesystem"
 version = "0.24.0"
 description = "TensorFlow IO"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7, <3.11"
 
@@ -583,15 +580,7 @@ tensorflow-rocm = ["tensorflow-rocm (>=2.8.0,<2.9.0)"]
 name = "termcolor"
 version = "1.1.0"
 description = "ANSII Color formatting for output in terminal."
-category = "dev"
-optional = false
-python-versions = "*"
-
-[[package]]
-name = "tf-estimator-nightly"
-version = "2.8.0.dev2021122109"
-description = "TensorFlow Estimator."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "*"
 
@@ -599,7 +588,7 @@ python-versions = "*"
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -607,7 +596,7 @@ python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -615,7 +604,7 @@ python-versions = ">=3.7"
 name = "typing-extensions"
 version = "4.1.1"
 description = "Backported and Experimental Type Hints for Python 3.6+"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -623,7 +612,7 @@ python-versions = ">=3.6"
 name = "urllib3"
 version = "1.26.8"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4"
 
@@ -636,7 +625,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 name = "werkzeug"
 version = "2.0.3"
 description = "The comprehensive WSGI web application library."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 
@@ -647,7 +636,7 @@ watchdog = ["watchdog"]
 name = "wrapt"
 version = "1.13.3"
 description = "Module for decorators, wrappers and monkey patching."
-category = "dev"
+category = "main"
 optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
@@ -655,7 +644,7 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 name = "zipp"
 version = "3.7.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.7"
 
@@ -666,7 +655,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9,<3.11"
-content-hash = "d801635bbdda03ebe30cd2a28e8eb4db47062ac9fc9b2c784ca66d73c175e9fa"
+content-hash = "61a5bba7f0adab4870c9831288716d3de306c1e31d7247abbf28282bca89fbbf"
 
 [metadata.files]
 absl-py = [
@@ -835,8 +824,10 @@ libclang = [
     {file = "libclang-13.0.0-py2.py3-none-macosx_11_0_arm64.whl", hash = "sha256:069407eac2e20ea8f18212d28c6598db31014e7b8a77febc92e762ec133c3226"},
     {file = "libclang-13.0.0-py2.py3-none-manylinux1_x86_64.whl", hash = "sha256:9c1e623340ccafe3a10a2abbc90f59593ff29f0c854f4ddb65b6220d9d998fb4"},
     {file = "libclang-13.0.0-py2.py3-none-manylinux2014_aarch64.whl", hash = "sha256:b7de34393ed46c6cf7b22178d0d43cec2f2dab2f5f95450520a47fc1cf2df5ac"},
+    {file = "libclang-13.0.0-py2.py3-none-manylinux2014_armv7l.whl", hash = "sha256:dfcdfc90eeb5d14f291e31c19b195fbcc29a8c0b2bd29fa331011f9536937a89"},
     {file = "libclang-13.0.0-py2.py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:dcc7ecd83d91e23e95315d7aa6355ee8d45b43742ca1fb642583e0b2f935d50e"},
     {file = "libclang-13.0.0-py2.py3-none-win_amd64.whl", hash = "sha256:b61dedc1b941f43acca1fa15df0a6669c6c3983197c6f3226ae03a766281dd37"},
+    {file = "libclang-13.0.0-py2.py3-none-win_arm64.whl", hash = "sha256:b0acfcfbd1f6d411f654cf6ec4f09cecf0f80b3480e4c9f834d1dcb1f8bd6907"},
 ]
 markdown = [
     {file = "Markdown-3.3.6-py3-none-any.whl", hash = "sha256:9923332318f843411e9932237530df53162e29dc7a4e2b91e35764583c46c9a3"},
@@ -1003,10 +994,6 @@ pyproject-flake8 = [
     {file = "pyproject-flake8-0.0.1a2.tar.gz", hash = "sha256:bdeca37f78ecd34bd64a49d3657d53d099f5445831071a31c46e1fe20cd61461"},
     {file = "pyproject_flake8-0.0.1a2-py2.py3-none-any.whl", hash = "sha256:e61ed1dc088e9f9f8a7170967ac4ec135acfef3a59ab9738c7b58cc11f294a7e"},
 ]
-python-dotenv = [
-    {file = "python-dotenv-0.19.2.tar.gz", hash = "sha256:a5de49a31e953b45ff2d2fd434bbc2670e8db5273606c1e737cc6b93eff3655f"},
-    {file = "python_dotenv-0.19.2-py2.py3-none-any.whl", hash = "sha256:32b2bdc1873fd3a3c346da1c6db83d0053c3c62f28f1f38516070c4c8971b1d3"},
-]
 requests = [
     {file = "requests-2.27.1-py2.py3-none-any.whl", hash = "sha256:f22fa1e554c9ddfd16e6e41ac79759e17be9e492b3587efa038054674760e72d"},
     {file = "requests-2.27.1.tar.gz", hash = "sha256:68d7c56fd5a8999887728ef304a6d12edc7be74f1cfa47714fc8b414525c9a61"},
@@ -1059,19 +1046,23 @@ tensorboard-data-server = [
 tensorboard-plugin-wit = [
     {file = "tensorboard_plugin_wit-1.8.1-py3-none-any.whl", hash = "sha256:ff26bdd583d155aa951ee3b152b3d0cffae8005dc697f72b44a8e8c2a77a8cbe"},
 ]
+tensorflow-estimator = [
+    {file = "tensorflow_estimator-2.8.0-py2.py3-none-any.whl", hash = "sha256:bee8e0520c60ae7eaf6ca8cb46c5a9f4b45725531380db8fbe38fcb48478b6bb"},
+]
 tensorflow-gpu = [
-    {file = "tensorflow_gpu-2.8.0-cp310-cp310-manylinux2010_x86_64.whl", hash = "sha256:1806ced7e76b86cab4c349078d1ee8697025b4cfcc0cf49884d210fa21957c1a"},
-    {file = "tensorflow_gpu-2.8.0-cp310-cp310-win_amd64.whl", hash = "sha256:8d4e748c1e96104e579606222b4f1996d741b372712cb9ed8c5ccf76bff682a0"},
-    {file = "tensorflow_gpu-2.8.0-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:d8a50aa74693c0f723b6d79d77125258075d511b8a42147251783a4cb3dc031b"},
-    {file = "tensorflow_gpu-2.8.0-cp37-cp37m-win_amd64.whl", hash = "sha256:e4e4abc52005f3dd173a27409dcca0c4e1a14c5bdba23506fb0dc370e6cf8d4c"},
-    {file = "tensorflow_gpu-2.8.0-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:eb511fbeaf2241cb27d7c164e802a92681fb58adb0aa652c39f1a7f08a522901"},
-    {file = "tensorflow_gpu-2.8.0-cp38-cp38-win_amd64.whl", hash = "sha256:2b99e820f93025bfa85fa5b5fdd85317b1d49078907a7acdd5297b7f2e09da21"},
-    {file = "tensorflow_gpu-2.8.0-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:8ab51fa22447c3fd588c5e272088915510ce3b0641dd11b2fd473d4cb707827f"},
-    {file = "tensorflow_gpu-2.8.0-cp39-cp39-win_amd64.whl", hash = "sha256:9466769066868ce380901ce7696da98be14709377fd66a8578c3031fc72204f7"},
+    {file = "tensorflow_gpu-2.8.1-cp310-cp310-manylinux2010_x86_64.whl", hash = "sha256:e136a32437880666f5cc22277af1d4d5544d869d735f5ce71c4a7d49c0af4619"},
+    {file = "tensorflow_gpu-2.8.1-cp310-cp310-win_amd64.whl", hash = "sha256:5ade996f4002d6d2171e030db3fe208008b254939abc7b9a9c612306d9accac7"},
+    {file = "tensorflow_gpu-2.8.1-cp37-cp37m-manylinux2010_x86_64.whl", hash = "sha256:7db7eef50094ed1f802e40827229463b016b43d103d0e746f3fe3d9d15a4edb9"},
+    {file = "tensorflow_gpu-2.8.1-cp37-cp37m-win_amd64.whl", hash = "sha256:69fdba15b84b27717ec30193024ce756cef7ed607261359a1a58f2ba30445c40"},
+    {file = "tensorflow_gpu-2.8.1-cp38-cp38-manylinux2010_x86_64.whl", hash = "sha256:07b1ee68e5c172f615cb181a2538e165b43a28f69d1462b2d20cc41d8fa77b43"},
+    {file = "tensorflow_gpu-2.8.1-cp38-cp38-win_amd64.whl", hash = "sha256:60d2436efc093074b1466828b2d88b735fc9f928bc15db33d7881cc202b9f8ee"},
+    {file = "tensorflow_gpu-2.8.1-cp39-cp39-manylinux2010_x86_64.whl", hash = "sha256:3073656e7026849fb7f8f0598803f5573460b928e4a8b7db1776adccd0f2497e"},
+    {file = "tensorflow_gpu-2.8.1-cp39-cp39-win_amd64.whl", hash = "sha256:2f8b7bcae482a43f025bae17a7ee93cb084f1897c1ba6a68aa701e50cc8a9f1e"},
 ]
 tensorflow-io-gcs-filesystem = [
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp310-cp310-macosx_10_14_x86_64.whl", hash = "sha256:9c00f9a9880477b1dff0c71ee6734421ce99ac484ca2151793ebf2681fc0cb4c"},
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:b6ca3a9f751aa9c2f9851520e666d905ad14667281bbafeabe611b7b8f3e1bc5"},
+    {file = "tensorflow_io_gcs_filesystem-0.24.0-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2a9c7f26ef9248bdfccc91fdddd66623754a6b08bd4440a780f23feaed8c5be7"},
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp310-cp310-win_amd64.whl", hash = "sha256:2f67d19a2f2579dc55f1590faf48c2e882cabb860992b5a9c7edb0ed8b3eb187"},
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:cde835e68b2b43ddade07c999e7c3251bcd62b1ff165c34fbe9fc6e0f12c3ac9"},
     {file = "tensorflow_io_gcs_filesystem-0.24.0-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", hash = "sha256:71c00638c9b6048480095f2738dfefd8f4b2e7b534190c91d699aee769bfa86e"},
@@ -1088,9 +1079,6 @@ tensorflow-io-gcs-filesystem = [
 ]
 termcolor = [
     {file = "termcolor-1.1.0.tar.gz", hash = "sha256:1d6d69ce66211143803fbc56652b41d73b4a400a2891d7bf7a1cdf4c02de613b"},
-]
-tf-estimator-nightly = [
-    {file = "tf_estimator_nightly-2.8.0.dev2021122109-py2.py3-none-any.whl", hash = "sha256:0065a04e396b2890bd19761fc1de7559ceafeba12839f8db2c7e7473afaaf612"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
